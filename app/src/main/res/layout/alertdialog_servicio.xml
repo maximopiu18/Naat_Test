@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#00000000"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_weight="100"
+        android:background="@drawable/background_radius"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="6dp"
+            android:weightSum="120">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="30"
+                android:backgroundTint="@color/blanco"
+                android:drawableLeft="@drawable/ic_agente"
+                android:gravity="center"
+                android:text="256874"
+                android:textColor="@color/blanco">
+
+            </TextView>
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="30"
+                android:backgroundTint="@color/blanco"
+                android:drawableLeft="@drawable/ic_clock"
+                android:gravity="center"
+                android:text="10:07:31"
+                android:textColor="@color/blanco">
+
+            </TextView>
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="30"
+                android:backgroundTint="@color/blanco"
+                android:drawableLeft="@drawable/ic_date"
+                android:gravity="center"
+                android:text="07/july/17"
+                android:textColor="@color/blanco">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/alertdialog_servicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="Se realizara una recarga"
+                android:textColor="@color/blanco"
+                android:textSize="20dp"
+
+                />
+
+            <LinearLayout
+                android:gravity="center"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:gravity="center"
+                    android:layout_margin="6dp"
+                    android:padding="6dp"
+                    android:layout_weight="40"
+                    android:background="@color/blanco"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp">
+
+                </View>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="Numero telefonico"
+                android:textColor="@color/blanco"
+                android:textSize="15dp"
+
+                />
+            <TextView
+                android:id="@+id/alertdialog_number"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="5588997744"
+                android:textColor="@color/blanco"
+                android:textSize="24dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="Monto a recargar"
+                android:textColor="@color/blanco"
+                android:textSize="15dp"
+
+                />
+            <TextView
+                android:id="@+id/alertdialog_cantidad"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="$200.00"
+                android:textColor="@color/blanco"
+                android:textSize="24dp"
+
+                />
+            <TextView
+                android:layout_marginTop="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="Realice su pago  oportunamente en la sucursal  de referencia"
+                android:textColor="@color/blanco"
+                android:textSize="12dp"
+                android:layout_marginBottom="18dp"
+
+                />
+            <LinearLayout
+                android:layout_marginBottom="18dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:textStyle="bold"
+                    android:id="@+id/alertdialog_cancelar"
+                    android:textColor="@color/blanco"
+                    android:background="@drawable/button_bg"
+                    android:text="Cancelar"
+                    android:layout_weight="45"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+                <View
+                    android:layout_weight="5"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"></View>
+                <Button
+                    android:textStyle="bold"
+                    android:id="@+id/alertdialog_aceptar"
+                    android:textColor="@color/blanco"
+                    android:background="@drawable/button_bg"
+                    android:text="Aceptar"
+                    android:layout_weight="45"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

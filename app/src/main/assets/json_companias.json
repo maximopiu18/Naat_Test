@@ -1,0 +1,84 @@
+{ "companias": [
+  {
+    "id": "0",
+    "name_company": "CLARO",
+    "description": "#fff66b04",
+    "items": [
+      {
+
+        "subid": "0",
+        "icontype": "1",
+        "label": "Recargas",
+        "icon": "Recargas"
+      },
+      {
+
+        "subid": "1",
+        "icontype": "1",
+        "label": "Tiempo aire",
+        "icon": "Tiempo aire"
+      },
+      {
+
+        "subid": "2",
+        "icontype": "1",
+        "label": "Megas",
+        "icon": "Megas"
+      }
+    ] },
+  {
+    "id": "1",
+    "name_company": "ENTEL",
+    "description": "#fff66b04",
+    "items": [
+      {
+
+        "subid": "0",
+        "icontype": "2",
+        "label": "Recargas",
+        "icon": "Recargas"
+      },
+      {
+
+        "subid": "1",
+        "icontype": "2",
+        "label": "Tiempo aire",
+        "icon": "Tiempo aire"
+      },
+      {
+
+        "subid": "2",
+        "icontype": "2",
+        "label": "Megas",
+        "icon": "Megas"
+      }
+    ]},
+  {
+    "id": "2",
+    "name_company": "TUENTI",
+    "description": "#fff66b04",
+    "items": [
+      {
+
+        "subid": "0",
+        "icontype": "3",
+        "label": "Recargas",
+        "icon": "Recargas"
+      },
+      {
+
+        "subid": "1",
+        "icontype": "3",
+        "label": "Tiempo aire",
+        "icon": "Tiempo aire"
+      },
+      {
+
+        "subid": "2",
+        "icontype": "3",
+        "label": "Megas",
+        "icon": "Megas"
+      }
+    ]}
+]
+}

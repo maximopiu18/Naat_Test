@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/item_layout"
+        android:background="@drawable/button_filter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/item_tv_tittle"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:textColor="@color/blanco"
+                android:textSize="14dp"
+                android:layout_margin="12dp"
+                android:layout_gravity="center|left"
+                android:gravity="center"
+                android:text="tittle"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+            </TextView>
+            <TextView
+                android:id="@+id/item_tv_ver_mas"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:textColor="@color/blanco"
+                android:textSize="12dp"
+                android:layout_margin="12dp"
+                android:layout_gravity="center|right"
+                android:gravity="center"
+                android:text="VER MÁS"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+            </TextView>
+        </FrameLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:visibility="visible"
+            android:id="@+id/item_recycler_items"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+</LinearLayout>
